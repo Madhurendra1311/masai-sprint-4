@@ -1,11 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+    <head>
+    <style>
+       #form {
+        padding:10px;
+        flex-direction: column;
+        }
+    </style>
 </head>
-<body>
-    
-</body>
+    <body>
+        <div>
+            <form id="form" onsubmit="submit()">
+                <label>Username: <input type="text" id="username"></label></br>
+            </br>
+                <label>Password: <input type="password" id="password"></label>
+                </br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <button onclick="adminPage()">Admin Page</button>
+        <script type="text/javascript" src="index.js">
+        </script>
+    </body>
 </html>
